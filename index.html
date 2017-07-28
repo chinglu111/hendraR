@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="style.css" type="text/css"> </head>
+  <link rel="stylesheet" href="https://pingendo.github.io/templates/blank/theme.css" type="text/css"> </head>
 
 <body>
   <nav class="navbar navbar-expand-md navbar-light bg-faded">
@@ -45,12 +45,32 @@
             lembaran-lembaran Letraset yang menggunakan kalimat-kalimat dari Lorem Ipsum, dan seiring munculnya perangkat lunak Desktop Publishing seperti Aldus PageMaker juga memiliki versi Lorem Ipsum.</p>
         </div>
         <div class="col-md-4">
-          <img class="img-fluid d-block" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg">
+          <img src="https://pingendo.com/assets/photos/user_placeholder.png" class="rounded-circle img-fluid mx-auto d-block">
           <ul class="list-inline">
-            <li class="list-inline-item">N</li>
+            <li class="list-inline-item">Lorem ipsum</li>
             <li class="list-inline-item">Phasellus iaculis</li>
             <li class="list-inline-item">Nulla volutpat</li>
           </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-8"></div>
+            <div class="col-md-4">
+              <h1 class="text-center">Buku Tamu</h1>
+              <div class="row">
+                <div class="col-md-12">
+                  <p>
+                    <form action="#" >
+                    <input type="text" name="text" size="20" maxlength="30"> </p>
+                    </form>
+                  <br> <textarea rows="4" cols="30" name="comment" form="usrform"> </textarea> <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-primary">Kirim</button> 
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -64,33 +84,69 @@
               <a class="nav-link" href="#">@2017</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Login Admin</a>
+              <a class="nav-link" href="login_admin.html">Login Admin</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"data-toggle="modal" data-target="#myModal">Sign In</a>
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">Sign In</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sign Up</a>
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h3 class="modal-title" id="myModalLabel">Masuk</h3>
-      </div>
-      <div class="modal-body">
-        <b>Username</b>
-        <form action="#">
-          <input type="text" name="username" value=""><br><br>
-        </form>
-        <b>Password</b>
-        <form action="#">
-          <input type="text" name="pass" value=""><br><br>
-        </form>
-         <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Masuk</button>
-      </div>
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal1">Sign Up</a>
+              <!-- Modal Daftar -->
+              <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                      <h3 class="modal-title" id="myModalLabel1">Daftar</h3>
+                    </div>
+                    <div class="modal-body"> <b>Username</b>
+                      <form action="#">
+                        <input type="text" name="username" value="">
+                        <br>
+                        <br> </form> <b>Password</b>
+                      <form action="#">
+                        <input type="text" name="pass" value="">
+                        <br>
+                        <br> </form> <b>Nama Lengkap</b>
+                      <form action="#">
+                        <input type="text" name="name" value="">
+                        <br>
+                        <br> </form> <b>Email</b>
+                      <form action="#">
+                        <input type="text" name="Email" value="">
+                        <br>
+                        <br> </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Daftar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal Masuk -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                      <h3 class="modal-title" id="myModalLabel">Masuk</h3>
+                    </div>
+                    <div class="modal-body"> <b>Username</b>
+                      <form action="#">
+                        <input type="text" name="username" value="">
+                        <br>
+                        <br> </form> <b>Password</b>
+                      <form action="#">
+                        <input type="text" name="pass" value="">
+                        <br>
+                        <br> </form>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Masuk</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
